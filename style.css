@@ -1,0 +1,33 @@
+.nav-item {
+  font-size: 28px;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 25px;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 350px !important;
+}
+
+.card-text {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.card-title {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+}
+
+.card-group {
+  margin-bottom: 32px;
+}
+
+.accordion-body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.accordion-header {
+  font-family: "Courier New", Courier, monospace;
+}

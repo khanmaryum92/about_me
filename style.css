@@ -1,3 +1,8 @@
+
+body {
+  background-color: #B497BD;
+}
+
 .nav-item {
   font-size: 28px;
   font-family: "Courier New", Courier, monospace;
@@ -35,4 +40,10 @@
 p {
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
+}
+
+.figure {
+  width: 750px; 
+  height: auto;
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.3));
 }

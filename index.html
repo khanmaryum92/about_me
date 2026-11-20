@@ -11,36 +11,86 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body class="background">
     <!--Header that will be going on all pages-->
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="index.html"
-          >Introduction</a
-        >
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="hobbies.html">Hobbies</a>
-      </li>
-      <li class="nav-item">
+    <div class="nav-justify-content-center">
+        <a class="nav-link active" aria-current="page" href="index.html">About Me</a>
         <a class="nav-link" href="skills.html">Skills</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="projects.html">Projects</a>
-      </li>
-    </ul>
+    </div>
+<!---Introduction section-->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h1>Hi, im Maryum!</h1>
+      <h2>A little about me... </h2>
+      <p class="intro">Hi! I'm Maryum Khan, I enjoy being creative, learning new things, and helping others whenever I can. I love exploring different interests, from digital media and technology to working with and supporting my community. I'm always looking for opportunities to grow, try new things, and make meaningful connections with the people around me.</p>
+    </div>
+    <div class="col-md-6">
+      <img src="Image/IMG_9755.jpg" class="img-fluid rounded-3" alt="Image of Me">
+    </div>
+  </div>
+</div>
 
- <figure class="figure">
-  <img src="Image/IMG_9755.jpg" class="img-fluid rounded-3" alt="Image of Me">
-  <figcaption class="figure-caption">Me!</figcaption>
-</figure>
-
-<p>Hi! I'm Maryum Khan, I enjoys being creative, learning new things, and helping others whenever I can. I love exploring different interests, from digital media and technology to working with and supporting my community. I'm always looking for opportunities to grow, try new things, and make meaningful connections with the people around me.</p>
-
+<!---Hobbies section-->
+    <!--Cards for different hobbies -->
+  <div class="hobbie-desc">
+    <div class="card-group">
+      <div class="card">
+        <img
+          src="https://blog.ekosport.fr/wp-content/uploads/2023/04/top-chaussures-running.jpg"
+          class="card-img-top"
+          alt="running image"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Running</h5>
+          <p class="card-text">
+            I have recently got into running and my goal by the end of the year
+            is to run a 5k! Running helps me with my mental health as well as my
+            physical health.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="https://images.stockcake.com/public/8/4/0/840903cf-7087-4ba6-b579-f9d855c4079d_large/cozy-reading-nook-stockcake.jpg"
+          class="card-img-top"
+          alt="Reading"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Reading</h5>
+          <p class="card-text">
+            Who doesn't love reading?! Reading is a great way for me to escape
+            reality and dive into another world. My favorite genre to read is
+            Fantasy.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="https://www.cupore.fi/wp-content/uploads/2024/04/barbara-froes-yhsdub0hv1a-unsplash-2-scaled-aspect-ratio-920-560-1-scaled.jpg"
+          class="card-img-top"
+          alt="Art"
+          class="card-img-top"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Art</h5>
+          <p class="card-text">
+            Being creative is a great way to express yourself. It's fun to work
+            with different mediums from; digital art, acrylic paint, sketching,
+            etc.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
   </body>
+  <footer>
+    <p class="footer-info">© MADE WITH ♡ BY MARYUM</p>
+  </footer>
 </html>
